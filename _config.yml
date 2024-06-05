@@ -35,6 +35,14 @@ header_pages:
   - table-demo.md
   - cli-demo.md
 
+header_links:
+  - name: Dev Cheatsheets
+    url: /dev-cheatsheets
+  - name: Code Cookbook
+    url: /code-cookbook
+  - name: Dev Resources
+    url: /dev-resources
+
 defaults:
   - scope:
       path: ""
