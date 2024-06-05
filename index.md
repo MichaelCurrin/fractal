@@ -7,7 +7,7 @@ layout: home
 
 This is a demo site which consists of just a few pages. Check out the [Demo group][] section to see use of logos and nested categories.
 
-[Demo group]: {{ site.baseurl }}{% link demo/index.md %}
+[Demo group]: {% if site.jekyll_3 and site.jekyll_3 == true %}{{ site.baseurl }}{% endif %}{% link demo/index.md %}
 
 
 ## Sites that use this theme
