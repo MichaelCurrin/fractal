@@ -82,6 +82,7 @@ If you are using Fractal as your theme, you might want to override the defaults 
 
 Do that as follows, using custom values first and then import `fractal` which will use the variables set or the defaults it has.
 
+{% raw %}
 ```scss
 ---
 ---
@@ -89,3 +90,4 @@ $brand-color: #e22a92;
 @import "fractal";
 @import "custom";
 ```
+{% endraw %}
