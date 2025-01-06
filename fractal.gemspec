@@ -18,6 +18,11 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency "jekyll", ">= 4.2", "< 5.0"
 
+  # Removed in Ruby 3.4 and 3.5, so must directly to avoid errors.
+  spec.add_runtime_dependency "logger", ">= 1.6.4", "< 2.0"
+  spec.add_runtime_dependency "csv", "~> 3.0"
+  spec.add_runtime_dependency "base64", "~> 0.2.0"
+
   # Match GH Pages locked versions.
   spec.add_runtime_dependency "jekyll-feed", "~> 0.15"
   spec.add_runtime_dependency "jekyll-sitemap", "~> 1.4"
